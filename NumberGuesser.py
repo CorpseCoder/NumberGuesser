@@ -12,7 +12,7 @@ if start == "Y":
 		if guess == num:
 			print("Congrats, you found the number!")
 			break
-	else:
+		else:
 			print("That is not the correct number")
 			turns=turns-1
 else:
